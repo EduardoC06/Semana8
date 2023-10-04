@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/script.js"></script>    
+    <title>Document</title>
+</head>
+<body>
+    <a href="javascript:msj()">mensaje</a>
+    <a href="javascript:window.print">window</a>
+    <a href="javascript:window.location.reload">refrescar</a>
+    <br>
+    <button onclick="mostrarFuncion()">Mostrar</button>
+    <button onclick="funcion1()">Primer valor</button>
+    <button onclick="funcion2()"> segundo valor</button>
+
+    <button onclick="ejemplo1()">Saludo</button>
+    <button onclick="ejemplo2()">Saludo personalizado</button>
+    <button onclick="sumar()">Sumar</button>
+    <button onclick="imagen()">imagen</button>
+    <button onclick="dirigir()">Ir a la utp</button>
+    <br>
+    <form>
+        <label>Ingrese su nombre: </label>
+        <input type="text" name="name" id="nombre">
+        <input type="button" onclick="ingresar()" name="aceptar" value="Aceptar">
+    </form>
+
+    <form>
+        <label> Habitual mente se desplaza en:</label> <br>
+        <input type="radio" name="resp" value="caminando">caminando <br>
+        <input type="radio" name="resp" value="Bicicleta">Bicicleta <br>
+        <input type="radio" name="resp" value="Auto">Auto <br>
+        <input type="radio" name="resp" value="Micrubus"> Microbus <br>
+        <input type="radio" name="resp" value="Taxi"> Taxi <br>
+        <input type="button" onclick="aceptar()" name="Aceptar" value="Aceptar">
+    </form>
+
+    <form name="productos"> 
+        <label>Numero1</label>
+        <input type="text" name="nro1"> <br>
+        <label>Numero2</label>
+        <input type="text" name="nro2"> <br>
+        <label>Resultado</label>
+        <input type="text" name="resultado"> <br>
+        <input type="button" onclick="sobre()" name="aceptar" value="Aceptar">
+    </form>
+<br>
+    <button onclick="conocer()">Ejercicio1</button>
+
+    <form name="notas"><br>
+        <label>Nota1</label>
+        <input type="text" name="nota1"> <br>
+        <label>Nota2</label>
+        <input type="text" name="nota2"> <br>
+        <label>Nota3</label>
+        <input type="text" name="nota3"> <br>
+        <label>Promedio</label>
+        <input type="text" name="resultado2"> <br>
+        <label>Resultado</label>
+        <input type="text" name="rest"> <br>
+        <input type="button" onclick="evaluar()" name="evalua" value="Evaluar">
+    </form>
+
+    <form><br>
+        <label>Ejercicio3</label><br>
+        <label>NumeroEntero</label>
+        <input type="text" name="valor"> <br>
+        <input type="button" onclick="Agregar()" name="agregar" value="Agrega">
+    </form>
+</body>
+</html>
